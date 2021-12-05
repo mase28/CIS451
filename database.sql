@@ -15,7 +15,7 @@ CREATE TABLE "nba2020"."players" (
 	"total_steals" mediumint(10) default NULL,
 	"avg_steals" smallint(6) default NULL,
 	"total_long" mediumint(10) default NULL,
-	"avg_long" smallint(6) default NULL
+	"avg_long" smallint(6) default NULL,
 	PRIMARY KEY ("p_id"),
 	UNIQUE KEY ("p_id")
 	) ENGINE=InnoDB DEFAULT CHARSET=latin1;
