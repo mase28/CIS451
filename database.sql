@@ -14,8 +14,8 @@
 CREATE DATABASE IF NOT EXISTS nba2020;
 USE nba2020;
 
-DROP TABLE IF EXISTS 'nba2020'.'players';
-CREATE TABLE 'nba2020'.'players' (
+DROP TABLE IF EXISTS players;
+CREATE TABLE players (
 	'p_id' bigint(20) unsigned NOT NULL auto_increment,
 	'fname' char(15) default NULL,
 	'lname' char(15) default NULL,
