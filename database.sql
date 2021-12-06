@@ -1,6 +1,6 @@
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT
 */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHRACTER_SET_RESULTS
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS
 */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION
 */;
@@ -10,12 +10,12 @@
 /*!40014 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 
---Create Database
+-- Create Database--;
 
 CREATE DATABASE IF NOT EXISTS nba2020;
 USE nba2020;
 
---Create Tables
+-- Create Tables--;
 
 DROP TABLE IF EXISTS players;
 CREATE TABLE players (
@@ -55,7 +55,7 @@ CREATE TABLE teams (
 	avg_steals int,
 	team_long int,
 	avg_long int,
-	cap_space int;
+	cap_space int,
 	PRIMARY KEY (t_id),
 	UNIQUE KEY (t_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
