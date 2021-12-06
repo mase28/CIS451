@@ -12,8 +12,11 @@
 
 -- Create Database--;
 
+USE master;
+DROP DATABASE nba2020 IF EXISTS (select * from sys.databases where name='nba2020'); 
+
 CREATE DATABASE IF NOT EXISTS nba2020;
-USE nba2020;
+USE DATABASE nba2020;
 
 -- Create Tables--;
 
